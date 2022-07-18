@@ -5,6 +5,8 @@
 
 Esta API fornece, de forma simples, um serviço que calcula o IMC (Índice de Massa Corporal) de uma pessoa. Além do recurso disponível, é uma ótima oportunidade de estudo para quem está aprendendo a desenvolver APIs.
 
+__ATENÇÃO__: A cada requisição são registrados os dados sobre _genero_, _peso_ e _altura_ em um arquivo JSON no diretório `data`, apenas para estatísticas futuras. Os dados mantidos não permitem a identificação de uma __pessoa__.
+
 ```html
 PHP 7.4.3 (cli) (built: Jun  13 2022 13:43:30) ( NTS )
 Copyright (c) The PHP Group Zend Engine v3.4.0, 
@@ -12,13 +14,13 @@ Copyright (c) Zend Technologies with Zend OPcache v7.4.3,
 Copyright (c), by Zend Technologies
 ```
 
-## Como usar esse conteúdo?
+### Como usar esse conteúdo?
 
 Este conteúdo é livre para uso e distribuição sob a licença (CC BY-SA 4.0).
 
 Se quiser colaborar neste repositório com quaisquer melhorias que você tenha feito, basta fazer um _fork_ e enviar um PR.
 
-## Composer
+### Composer
 
 Mudanças devem ser atualizadas via <code>composer dump-autoload -o</code> no ambiente de desenvolvimento.
 
