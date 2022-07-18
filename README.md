@@ -22,7 +22,7 @@ Se quiser colaborar neste repositório com quaisquer melhorias que você tenha f
 
 Mudanças devem ser atualizadas via <code>composer dump-autoload -o</code> no ambiente de desenvolvimento.
 
-# Como usar
+### Como usar
 
 ---
 | Resource |      URI      |  Method  |
@@ -46,6 +46,8 @@ A API pode ser testada no endereço abaixo com os dados sugeridos.
 - URI: [http://emsapi.esy.es/imcapi/api](http://emsapi.esy.es/imcapi/api/)
 
 --- 
+
+_**payload**_
 
 ```json
 {
