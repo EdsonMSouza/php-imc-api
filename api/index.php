@@ -35,7 +35,7 @@ try {
                 echo json_encode(['message' => 'Payload Precondition Failed']);
                 die();
             }
-        } catch (Exception $ex) {
+        } catch (\Exception $ex) {
             echo json_encode(['message' => 'Bad Request (Invalid Syntax)']);
         }
 
@@ -44,12 +44,12 @@ try {
             try {
                 $imc = new IMC(strip_tags($data->genero), strip_tags($data->peso), strip_tags($data->altura), strip_tags($data->idioma));
                 echo $imc->getImc();
-            } catch (Exception $ex) {
+            } catch (\Exception $ex) {
                 echo json_encode(['message' => $ex->getMessage()]);
                 die();
             }
 
-        } catch (Exception $ex) {
+        } catch (\Exception $ex) {
             echo json_encode(['message' => $ex->getMessage()]);
             die();
         }
@@ -58,7 +58,7 @@ try {
         echo json_encode(['message' => 'Method Not Allowed']);
         die();
     }
-} catch (Exception $ex) {
+} catch (\Exception $ex) {
     echo json_encode(['message' => $ex->getMessage()]);
     die();
 }

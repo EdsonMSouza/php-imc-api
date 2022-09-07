@@ -2,7 +2,7 @@
 <p><code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png"></code>
     <code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/json/json.png"></code></p>
 <p>Esta API fornece, de forma simples, um serviço que calcula o IMC (Índice de Massa Corporal) de uma pessoa. Além do recurso disponível, é uma ótima oportunidade de estudo para quem está aprendendo a desenvolver APIs.</p>
-<p><strong>ATENÇÃO</strong>: A cada requisição são registrados os dados sobre <em>genero</em>, <em>peso</em> e <em>altura</em> em um arquivo JSON no diretório <code>data</code>, apenas para estatísticas futuras. Os dados mantidos não permitem a identificação de uma <strong>pessoa</strong>.</p>
+<p><strong>ATENÇÃO</strong>: A cada requisição são registrados os dados sobre <em>sexo</em>, <em>peso</em> e <em>altura</em> em um arquivo JSON no diretório <code>data</code>, apenas para estatísticas futuras. Os dados mantidos não permitem a identificação de uma <strong>pessoa</strong>.</p>
 <pre><code class="lang-html"><span class="hljs-selector-tag">PHP</span> 7<span class="hljs-selector-class">.4</span><span class="hljs-selector-class">.3</span> (<span class="hljs-selector-tag">cli</span>) (<span class="hljs-selector-tag">built</span>: <span class="hljs-selector-tag">Jun</span>  13 2022 13<span class="hljs-selector-pseudo">:43</span><span class="hljs-selector-pseudo">:30)</span> ( <span class="hljs-selector-tag">NTS</span> )
 <span class="hljs-selector-tag">Copyright</span> (<span class="hljs-selector-tag">c</span>) <span class="hljs-selector-tag">The</span> <span class="hljs-selector-tag">PHP</span> <span class="hljs-selector-tag">Group</span> <span class="hljs-selector-tag">Zend</span> <span class="hljs-selector-tag">Engine</span> <span class="hljs-selector-tag">v3</span><span class="hljs-selector-class">.4</span><span class="hljs-selector-class">.0</span>,
 <span class="hljs-selector-tag">Copyright</span> (<span class="hljs-selector-tag">c</span>) <span class="hljs-selector-tag">Zend</span> <span class="hljs-selector-tag">Technologies</span> <span class="hljs-selector-tag">with</span> <span class="hljs-selector-tag">Zend</span> <span class="hljs-selector-tag">OPcache</span> <span class="hljs-selector-tag">v7</span><span class="hljs-selector-class">.4</span><span class="hljs-selector-class">.3</span>,
@@ -33,7 +33,7 @@
 </table>
 <p><em><strong>payload</strong></em></p>
 <pre><code class="lang-json">{
-  <span class="hljs-attr">"genero"</span>: <span class="hljs-string">"masculino, feminino ou outros"</span>,
+  <span class="hljs-attr">"sexo"</span>: <span class="hljs-string">"masculino, feminino ou outros"</span>,
   <span class="hljs-attr">"peso"</span>: <span class="hljs-string">"94"</span>,
   <span class="hljs-attr">"altura"</span>: <span class="hljs-string">"1.80"</span>,
   <span class="hljs-attr">"idioma"</span>: <span class="hljs-string">"br ou en"</span>
@@ -42,12 +42,12 @@
 <h3 id="teste-online">Teste Online</h3>
 <p>A API pode ser testada no endereço abaixo com os dados sugeridos.</p>
 <ul>
-    <li>URI: <a href="http://emsapi.esy.es/imcapi/api/">http://emsapi.esy.es/imcapi/api</a></li>
+    <li>URI: <a href="https://emsapi.000webhostapp.com/imcapi/api/">https://emsapi.000webhostapp.com/imcapi/api/</a></li>
 </ul>
 <hr>
 <p><em><strong>payload</strong></em></p>
 <pre><code class="lang-json">{
-  <span class="hljs-attr">"genero"</span>: <span class="hljs-string">"masculino"</span>,
+  <span class="hljs-attr">"sexo"</span>: <span class="hljs-string">"masculino"</span>,
   <span class="hljs-attr">"peso"</span>: <span class="hljs-string">"94"</span>,
   <span class="hljs-attr">"altura"</span>: <span class="hljs-string">"1.80"</span>,
   <span class="hljs-attr">"idioma"</span>: <span class="hljs-string">"br"</span>

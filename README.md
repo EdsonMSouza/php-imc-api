@@ -5,7 +5,7 @@
 
 Esta API fornece, de forma simples, um serviço que calcula o IMC (Índice de Massa Corporal) de uma pessoa. Além do recurso disponível, é uma ótima oportunidade de estudo para quem está aprendendo a desenvolver APIs.
 
-__ATENÇÃO__: A cada requisição são registrados os dados sobre _genero_, _peso_ e _altura_ em um arquivo JSON no diretório `data`, apenas para estatísticas futuras. Os dados mantidos não permitem a identificação de uma __pessoa__.
+__ATENÇÃO__: A cada requisição são registrados os dados sobre _sexo_, _peso_ e _altura_ em um arquivo JSON no diretório `data`, apenas para estatísticas futuras. Os dados mantidos não permitem a identificação de uma __pessoa__.
 
 ```html
 PHP 7.4.3 (cli) (built: Jun  13 2022 13:43:30) ( NTS )
@@ -35,7 +35,7 @@ _**payload**_
 
 ```json
 {
-  "genero": "masculino, feminino ou outros",
+  "sexo": "masculino, feminino ou outros",
   "peso": "94",
   "altura": "1.80",
   "idioma": "br ou en"  
@@ -45,7 +45,7 @@ _**payload**_
 
 A API pode ser testada no endereço abaixo com os dados sugeridos.
 
-- URI: [http://emsapi.esy.es/imcapi/api](http://emsapi.esy.es/imcapi/api/)
+- URI: [https://emsapi.000webhostapp.com/imcapi/api/](https://emsapi.000webhostapp.com/imcapi/api/)
 
 --- 
 
@@ -53,7 +53,7 @@ _**payload**_
 
 ```json
 {
-  "genero": "masculino",
+  "sexo": "masculino",
   "peso": "94",
   "altura": "1.80",
   "idioma": "br"  
