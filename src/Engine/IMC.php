@@ -4,15 +4,15 @@ namespace Api\Engine;
 
 class IMC
 {
-    private static string $genero;
+    private static string $sexo;
     private static int $peso;
     private static float $altura;
     private static string $idioma;
 
 
-    public function __construct(string $genero, int $peso, float $altura, string $idioma)
+    public function __construct(string $sexo, int $peso, float $altura, string $idioma)
     {
-        self::$genero = $genero;
+        self::$sexo = $sexo;
         self::$peso = $peso;
         self::$altura = $altura;
         self::$idioma = $idioma;
@@ -66,7 +66,7 @@ class IMC
         $json_arr = json_decode($data, true);
 
         // add data
-        $json_arr[] = ['genero' => self::$genero, 'peso' => self::$peso, 'altura' => self::$altura];
+        $json_arr[] = ['sexo' => self::$sexo, 'peso' => self::$peso, 'altura' => self::$altura];
 
         // encode json and save to file
         file_put_contents('../data/data.json', json_encode($json_arr, JSON_PRETTY_PRINT));
