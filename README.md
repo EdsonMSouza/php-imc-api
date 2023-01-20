@@ -44,7 +44,7 @@ _**payload**_
 
 A API pode ser testada no endereço abaixo com os dados sugeridos.
 
-- URI: [https://emsapi.000webhostapp.com/imcapi/api/](https://emsapi.000webhostapp.com/imcapi/api/)
+- URI: [https://www.edsonmelo.com.br/src/imc/api/](https://www.edsonmelo.com.br/src/imc/api/)
 
 --- 
 
