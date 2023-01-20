@@ -1,7 +1,10 @@
 [
     {
-        "genero": "masculino",
         "peso": 94,
-        "altura": 1.80
+        "altura": 1.8
+    },
+    {
+        "peso": 94,
+        "altura": 1.8
     }
 ]
