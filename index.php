@@ -41,7 +41,7 @@
 <h3 id="teste-online">Teste Online</h3>
 <p>A API pode ser testada no endereço abaixo com os dados sugeridos.</p>
 <ul>
-    <li>URI: <a href="https://www.edsonmelo.com.br/src/imc/api/">https://www.edsonmelo.com.br/src/imc/api/</a></li>
+    <li>URI: <a href="https://imc-api.edsonmelo.com.br/api/">https://imc-api.edsonmelo.com.br/api/</a></li>
 </ul>
 <hr>
 <p><em><strong>payload</strong></em></p>

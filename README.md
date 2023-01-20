@@ -44,7 +44,7 @@ _**payload**_
 
 A API pode ser testada no endereço abaixo com os dados sugeridos.
 
-- URI: [https://www.edsonmelo.com.br/src/imc/api/](https://www.edsonmelo.com.br/src/imc/api/)
+- URI: [https://imc-api.edsonmelo.com.br/api/](https://imc-api.edsonmelo.com.br/api/)
 
 --- 
 
